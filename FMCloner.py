@@ -1,5 +1,13 @@
-from tkinter import *
-import tkinter as tk
+try:
+    from Tkinter import *
+except ImportError:
+    from tkinter import *
+
+try:
+    import Tkinter as tk
+except ImportError:
+    import tkinter as tk
+
 from config import files
 import os
 import subprocess
