@@ -1,4 +1,5 @@
 files = [
+    "test",
     "AccountingDocs",
     "AccountingDocsR",
     "AccountingDocsU",
