@@ -1,3 +1,5 @@
+import subprocess,os
+
 files = [
     "AccountingDocs",
     "AccountingDocsR",
@@ -126,3 +128,5 @@ files = [
     "zIconeLoghi",
     "zVersioni"
 ]
+
+command = "fmsadmin list files -u sandezaserver -p s4nd3z4"

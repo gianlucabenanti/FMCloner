@@ -8,7 +8,7 @@ try:
 except ImportError:
     import tkinter as tk
 
-from config import files
+from config import *
 import os
 import subprocess
 
